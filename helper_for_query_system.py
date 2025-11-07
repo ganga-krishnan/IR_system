@@ -3,7 +3,7 @@ import os
 import logging
 from typing import Optional
 from dotenv import load_dotenv
-load_dotenv("/home/ganga/Desktop/inerg_task/IR_System_with_RAG/.env")
+load_dotenv("/path/to/dotenv/.env")
 
 from configs import config
 
