@@ -7,7 +7,7 @@ import tkinter as tk
 from configs import config
 from tkinter import filedialog
 from dotenv import load_dotenv
-load_dotenv("/home/ganga/Desktop/inerg_task/IR_System_with_RAG/.env")
+load_dotenv("path/to/dotenv/.env")
 
 try:
     from helper_for_indexing import PDFQdrantIndexer
