@@ -76,7 +76,15 @@ COLLECTION_NAME=pdf_embeddings
 streamlit run app.py
 ```
 ## Architecture Diagram   
-! [Workflow Diagram](https://github.com/ganga-krishnan/IR_system/blob/main/IR_workflow.png)
+! [Workflow Diagram](https://github.com/ganga-krishnan/IR_system/blob/main/IR_workflow.png)   
+
+## Within the UI   
+### Step 1:    
+Run "Index New Documents into database" after choosing the folderpath where PDF files are located. Hit "Upload & Index PDFs" button.   
+
+### Step 2:    
+Ask any question from the pdf. Hit "Run query" button.    
+If you want to see all matched chunks from the pdf with score of relevency, click on "explore more"
 
 
 
