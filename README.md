@@ -63,6 +63,15 @@ Create a .env file at the project root (or update existing one):
 ``` bash
 OPENAI_API_KEY=your_openai_api_key_here
 ```
+You can also include other optional variables like:   
+``` bash
+QDRANT_PATH=./qdrant_pdf_data
+COLLECTION_NAME=pdf_embeddings
+```
+### Run the Streamlit app   
+``` bash
+streamlit run app.py
+```
 
 
 
