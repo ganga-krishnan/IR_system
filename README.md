@@ -32,17 +32,17 @@ It combines **semantic search (Qdrant vector database)** and **LLM-based respons
   - Explore retrieved documents with relevance scores
 
 ## Project Structure
-IR_System_with_RAG/
+IR_System_with_RAG/   
 │   
 ├── configs/   
-│ └── config.py # Model names and configuration   
+│ └── config.py  _# Model names and configuration_  
 │   
-├── helper_for_indexing.py # Handles PDF parsing, embedding, and Qdrant indexing   
-├── helper_for_query_system.py # Handles query, retrieval, and LLM response generation    
-├── app.py # Streamlit UI (main entry point)    
+├── helper_for_indexing.py  _# Handles PDF parsing, embedding, and Qdrant indexing_  
+├── helper_for_query_system.py  _# Handles query, retrieval, and LLM response generation_    
+├── app.py  _# Streamlit UI (main entry point)_    
 │    
-├── .env # Environment variables (API keys)    
-├── requirements.txt # Dependencies list   
+├── .env  _# Environment variables (API keys)_    
+├── requirements.txt  _# Dependencies list_   
    
 ## Setup Instructions    
 ### Clone the repository    
@@ -51,7 +51,10 @@ git clone https://github.com/ganga-krishnan/IR_system.git
 cd IR_system
 ```
 ### Create and activate a virtual environment   
-
+``` bash
+conda create -n env_name python=<python_version>
+conda activate env_name
+```
 
 ### Install dependencies   
 ``` bash
@@ -72,6 +75,8 @@ COLLECTION_NAME=pdf_embeddings
 ``` bash
 streamlit run app.py
 ```
+## Architecture Diagram   
+![] ()
 
 
 
