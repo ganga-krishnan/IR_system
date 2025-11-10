@@ -44,6 +44,9 @@ IR_System_with_RAG/
 ├── .env # Environment variables (API keys)    
 ├── requirements.txt # Dependencies list   
    
+## Setup Instructions    
+### Clone the repository    
+``` bash
 
 
 
