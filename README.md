@@ -47,6 +47,23 @@ IR_System_with_RAG/
 ## Setup Instructions    
 ### Clone the repository    
 ``` bash
+git clone https://github.com/ganga-krishnan/IR_system.git
+cd IR_system
+```
+### Create and activate a virtual environment   
+
+
+### Install dependencies   
+``` bash
+pip install -r requirements.txt
+```
+### Add environment variables
+
+Create a .env file at the project root (or update existing one):   
+``` bash
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
 
 
 
