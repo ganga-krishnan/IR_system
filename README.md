@@ -32,7 +32,7 @@ It combines **semantic search (Qdrant vector database)** and **LLM-based respons
   - Explore retrieved documents with relevance scores
 
 ## Project Structure
-IR_System_with_RAG/   
+IR_System_RAG/   
 │   
 ├── configs/   
 │ └── config.py  _# Model names and configuration_  
