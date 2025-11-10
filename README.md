@@ -76,7 +76,7 @@ COLLECTION_NAME=pdf_embeddings
 streamlit run app.py
 ```
 ## Architecture Diagram   
-![] ()
+![] (https://github.com/ganga-krishnan/IR_system/blob/main/IR_workflow.png)
 
 
 
